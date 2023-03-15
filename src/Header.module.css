@@ -1,0 +1,21 @@
+.header {
+  background-color: #f5d927;
+  color: #fff;
+}
+
+.brand {
+  font-size: 2rem;
+}
+
+.link {
+  color: #b2b2b2;
+  background-color: #f5d927;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin-right: 1rem;
+  text-decoration: none !important;
+}
+
+.link:hover {
+  color: #f7e571;
+}

@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5d927;
+}
+
+.zipCodeLabel {
+  color: #fffacd;
+  background-color: #f5d927;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+
+.zipCodeInput {
+  margin-right: 1rem;
+  background-color: #f7e571;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  color: #483d08;
+}
+
+.submitButton {
+  background-color: #756d36;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  color: #fff;
+}
+
+.submitButton:hover {
+  background-color: #c2ac1f;
+}
+
+.weatherInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  background-color: #f5d927;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.location {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #483d08;
+}
+
+.temperature {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: #483d08;
+}
+
+.precipitation {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #fffacd;
+}
+
+.emojiContainer {
+  font-size: 3rem;
+  color: #483d08;
+}
